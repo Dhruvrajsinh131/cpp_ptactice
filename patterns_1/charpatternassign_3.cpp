@@ -1,8 +1,9 @@
-/*
-ABCD
-ABCD
-ABCD
-ABCD
+/* For n = 5
+E
+DE
+CDE
+BCDE
+ABCDE
 */
 
 #include <iostream>
@@ -10,20 +11,20 @@ using namespace std;
 
 int main()
 {
-
     int n;
-    cout << "Enter the Number of rows";
+    cout << "Enter the Numnner of Line : ";
     cin >> n;
-    int i = 1;
 
+    int i = 1;
     while (i <= n)
     {
-
         int j = 1;
-        while (j <= n)
+
+        char c = n + 65 - i;
+        while (j <= i)
         {
-            char c = 'A' + j - 1;
             cout << c;
+            c++;
             j++;
         }
 

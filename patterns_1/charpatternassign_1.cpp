@@ -1,8 +1,7 @@
 /*
-ABCD
-ABCD
-ABCD
-ABCD
+A
+BB
+CCC
 */
 
 #include <iostream>
@@ -10,19 +9,17 @@ using namespace std;
 
 int main()
 {
-
     int n;
-    cout << "Enter the Number of rows";
+    cout << "Enter Number of lines : ";
     cin >> n;
-    int i = 1;
 
+    int i = 1;
     while (i <= n)
     {
-
+        char c = 'A' + i - 1;
         int j = 1;
-        while (j <= n)
+        while (j <= i)
         {
-            char c = 'A' + j - 1;
             cout << c;
             j++;
         }
