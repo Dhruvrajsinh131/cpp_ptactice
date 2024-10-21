@@ -4,7 +4,7 @@ using namespace std;
 int getLength(char str[])
 {
     int length = 0;
-    for (int i = 0; str[i] != 0; i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
         length++;
     }
