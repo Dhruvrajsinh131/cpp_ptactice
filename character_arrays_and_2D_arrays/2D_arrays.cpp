@@ -37,11 +37,11 @@ int main()
 
     // print array  row wise
 
-    for (int i = 0; i < c; i++)
+    for (int j = 0; j < c; j++)
     {
-        for (int j = 0; j < r; j++)
+        for (int i = 0; i < r; i++)
         {
-            cout << arr[j][i] << " ";
+            cout << arr[i][j] << " ";
         }
         cout << endl;
     }
