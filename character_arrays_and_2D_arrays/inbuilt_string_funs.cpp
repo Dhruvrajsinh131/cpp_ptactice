@@ -57,7 +57,7 @@ int main()
     char name1[100] = "abcd";
     char name2[100] = "he";
 
-    cout << "Before copy : " << name1 << " " << name2 << endl;
+    cout << "Before copy :   " << name1 << " " << name2 << endl;
 
     strncpy(name2, name1, 9);
     cout << "after copy : " << name1 << " " << name2;
